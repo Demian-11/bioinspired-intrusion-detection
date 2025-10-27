@@ -9,7 +9,7 @@ from pyspark.ml.feature import VectorAssembler, StringIndexer
 from pyspark.ml.classification import DecisionTreeClassifier
 from pyspark.ml.evaluation import MulticlassClassificationEvaluator
 
-# --- permitir imports locales desde ./scripts ---
+# ---  imports ./scr ---
 THIS_DIR = Path(__file__).resolve().parent
 sys.path.insert(0, str(THIS_DIR))
 
@@ -21,13 +21,13 @@ spark = (
     SparkSession.builder
     .appName("ABC_FS")
     .master("local[*]")
-    .config("spark.driver.memory", "6g")              # súbelo a "8g" si tu Mac aguanta
+    .config("spark.driver.memory", "6g")              
     .config("spark.sql.shuffle.partitions", "50")
     .config("spark.default.parallelism", "8")
     .getOrCreate()
 )
 
-# -------- Paths --------
+# -------- Cargar datos --------
 train_p = "data/processed/train.parquet"
 test_p  = "data/processed/test.parquet"
 out_dir = Path("data/results")
