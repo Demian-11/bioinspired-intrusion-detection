@@ -13,8 +13,8 @@ from pyspark.ml.evaluation import MulticlassClassificationEvaluator
 THIS_DIR = Path(__file__).resolve().parent
 sys.path.insert(0, str(THIS_DIR))
 
-from abc_selector import ABCSelector
-from fitness import evaluate_subset
+from src.abc_selector import ABCSelector
+from src.fitness import evaluate_subset
 
 # -------- Spark --------
 spark = (

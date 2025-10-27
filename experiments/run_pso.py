@@ -13,8 +13,8 @@ from pyspark.ml.evaluation import MulticlassClassificationEvaluator
 # --- imports locales ---
 THIS_DIR = Path(__file__).resolve().parent
 sys.path.insert(0, str(THIS_DIR))
-from pso_selector import PSOSelector
-from fitness import evaluate_subset
+from src.pso_selector import PSOSelector
+from src.fitness import evaluate_subset
 
 # -------- Spark muy ligero --------
 spark = (
