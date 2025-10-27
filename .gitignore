@@ -1,0 +1,111 @@
+# ======================================
+# .gitignore - Bioinspired Intrusion Detection
+# ======================================
+
+# === Entorno virtual ===
+.venv/
+venv/
+env/
+ENV/
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+
+# === Archivos de sistema (macOS) ===
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+# === Archivos temporales de VS Code ===
+.vscode/
+.history/
+*.code-workspace
+
+# === Archivos de caché de Jupyter y PySpark ===
+.ipynb_checkpoints/
+spark-warehouse/
+metastore_db/
+derby.log
+*.crc
+*.parquet.crc
+
+# === Archivos de salida ===
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# === Resultados generados ===
+Data/results/*.json
+Data/results/*.txt
+Data/results/*.xlsx
+Data/results/*.csv
+
+# === Datasets grandes ===
+Data/cleaned_dataset_csv/
+Data/cleaned_dataset_parquet/
+Data/processed/
+Data/*.csv
+Data/*.parquet
+
+# === Archivos comprimidos o binarios ===
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.gz
+*.bz2
+
+# === Archivos de ejecución y cacheado ===
+nohup.out
+*.out
+*.err
+
+# === Archivos de Python — dependencias ===
+Pipfile
+Pipfile.lock
+poetry.lock
+__pycache__/
+.pytest_cache/
+.cache/
+
+# === Archivos de exportación de gráficos o tablas ===
+Figures/*.png
+Figures/*.jpg
+Figures/*.jpeg
+Figures/*.pdf
+
+# === Archivos de notebook temporales ===
+Notebooks/.ipynb_checkpoints/
+Notebooks/*checkpoint*.ipynb
+
+# === Archivos de usuario ===
+*.personal
+*.backup
+*.local
+*.cfg
+*.ini
+
+# === Archivos de entorno ===
+.env
+.env.*
+*.env
+
+# === Archivos de ejecución ===
+*.pid
+*.seed
+*.run
+
+# === Sistema de control de versiones adicional ===
+*.orig
+*.rej
+*.patch
+*.diff
