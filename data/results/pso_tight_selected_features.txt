@@ -1,0 +1,9 @@
+Tot Fwd Pkts
+Tot Bwd Pkts
+TotLen Fwd Pkts
+TotLen Bwd Pkts
+Fwd Pkt Len Max
+Bwd Pkt Len Mean
+Flow IAT Mean
+Flow IAT Std
+Fwd IAT Std

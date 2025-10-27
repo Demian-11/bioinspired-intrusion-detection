@@ -1,0 +1,31 @@
+{
+  "subset_size": 5,
+  "selected_features": [
+    "Flow Duration",
+    "Tot Fwd Pkts",
+    "Tot Bwd Pkts",
+    "TotLen Fwd Pkts",
+    "TotLen Bwd Pkts"
+  ],
+  "metrics": {
+    "accuracy": 0.9879087062911961,
+    "f1": 0.9819793674398698,
+    "weightedPrecision": 0.9820479713611365,
+    "weightedRecall": 0.9879087062911961
+  },
+  "objective": 0.9813209486993104,
+  "search_info": {
+    "history": [
+      0.9813209486993104,
+      0.9813209486993104,
+      0.9813209486993104,
+      0.9813209486993104,
+      0.9813209486993104
+    ],
+    "elapsed_search_sec": 79.65814304351807,
+    "elapsed_finaltrain_sec": 5.0592381954193115,
+    "iters": 10,
+    "evaluations": 46,
+    "stopped_early": true
+  }
+}

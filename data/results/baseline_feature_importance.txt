@@ -1,0 +1,20 @@
+Pkt Len Std: 0.575795
+Pkt Len Var: 0.365842
+Flow Duration: 0.022812
+TotLen Fwd Pkts: 0.008168
+Fwd Pkt Len Max: 0.004680
+Pkt Size Avg: 0.004359
+Bwd Pkt Len Min: 0.002544
+Flow Byts/s: 0.002466
+Flow IAT Max: 0.001871
+Tot Fwd Pkts: 0.001198
+Bwd Pkt Len Mean: 0.001173
+Fwd Pkts/s: 0.001156
+Active Min: 0.001139
+Bwd IAT Min: 0.000824
+Fwd IAT Std: 0.000818
+Flow Pkts/s__binned: 0.000790
+Bwd IAT Tot: 0.000739
+Flow IAT Min__binned: 0.000532
+TotLen Bwd Pkts: 0.000519
+Flow IAT Mean: 0.000396

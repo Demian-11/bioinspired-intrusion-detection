@@ -1,0 +1,27 @@
+{
+  "subset_size": 5,
+  "selected_features": [
+    "Flow Duration",
+    "Tot Fwd Pkts",
+    "Fwd IAT Max",
+    "Fwd Header Len",
+    "Fwd Pkts/s"
+  ],
+  "metrics": {
+    "accuracy": 0.9879074894960156,
+    "f1": 0.9818992232187054,
+    "weightedPrecision": 0.9759635974311939,
+    "weightedRecall": 0.9879074894960156
+  },
+  "objective": 0.9812902875777203,
+  "search_info": {
+    "history": [
+      0.9812902875777203,
+      0.9812902875777203
+    ],
+    "elapsed_search_sec": 88.95199060440063,
+    "elapsed_finaltrain_sec": 4.4742279052734375,
+    "iters": 8,
+    "evaluations": 11
+  }
+}

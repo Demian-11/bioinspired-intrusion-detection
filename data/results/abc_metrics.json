@@ -1,0 +1,70 @@
+{
+  "metrics": {
+    "accuracy": 0.9879038391104741,
+    "f1": 0.9819070912719042,
+    "weightedPrecision": 0.9799986771832881,
+    "weightedRecall": 0.9879038391104741
+  },
+  "best_obj": 0.9809856721130101,
+  "subset_size": 7,
+  "total_features": 67,
+  "elapsed_search_sec": 814.0771541595459,
+  "elapsed_finaltrain_sec": 5.102560043334961,
+  "history": [
+    {
+      "iter": 0,
+      "best_obj": 0.9805379109189803,
+      "best_k": 10
+    },
+    {
+      "iter": 1,
+      "best_obj": 0.9805379109189803,
+      "best_k": 10
+    },
+    {
+      "iter": 2,
+      "best_obj": 0.9805379109189803,
+      "best_k": 10
+    },
+    {
+      "iter": 3,
+      "best_obj": 0.9805379109189803,
+      "best_k": 10
+    },
+    {
+      "iter": 4,
+      "best_obj": 0.9805379109189803,
+      "best_k": 10
+    },
+    {
+      "iter": 5,
+      "best_obj": 0.9805379109189803,
+      "best_k": 10
+    },
+    {
+      "iter": 6,
+      "best_obj": 0.9806871646503236,
+      "best_k": 9
+    },
+    {
+      "iter": 7,
+      "best_obj": 0.9809856721130101,
+      "best_k": 7
+    },
+    {
+      "iter": 8,
+      "best_obj": 0.9809856721130101,
+      "best_k": 7
+    },
+    {
+      "iter": 9,
+      "best_obj": 0.9809856721130101,
+      "best_k": 7
+    },
+    {
+      "iter": 10,
+      "best_obj": 0.9809856721130101,
+      "best_k": 7
+    }
+  ]
+}

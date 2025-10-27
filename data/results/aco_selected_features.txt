@@ -1,0 +1,5 @@
+Flow Duration
+Tot Fwd Pkts
+Fwd IAT Max
+Fwd Header Len
+Fwd Pkts/s
