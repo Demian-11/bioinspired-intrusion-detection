@@ -1,14 +1,14 @@
-# ======================================
+# ==============================
 # .gitignore - Bioinspired Intrusion Detection
-# ======================================
+# ==============================
 
 # === Entorno virtual ===
 .venv/
 venv/
-env/
 ENV/
-*.pyc
+env/
 __pycache__/
+*.pyc
 *.pyo
 *.pyd
 *.pdb
@@ -28,84 +28,34 @@ Icon?
 .history/
 *.code-workspace
 
-# === Archivos de caché de Jupyter y PySpark ===
+# === Archivos de caché y notebook ===
 .ipynb_checkpoints/
 spark-warehouse/
 metastore_db/
-derby.log
-*.crc
-*.parquet.crc
+
+# === Datos pesados ===
+# Ignorar datasets crudos y procesados
+data/raw/
+data/cleaned_dataset_csv/
+data/cleaned_dataset_parquet/
+data/processed/
+
+# Pero mantener resultados ligeros y seleccionados
+!data/results/
+!data/results/*.json
+!data/results/*.txt
 
 # === Archivos de salida ===
+*.csv
+*.parquet
+*.zip
+*.gz
+
+# === Archivos generados temporalmente ===
 *.log
 *.tmp
 *.bak
-*.swp
-*.swo
-
-# === Resultados generados ===
-Data/results/*.json
-Data/results/*.txt
-Data/results/*.xlsx
-Data/results/*.csv
-
-# === Datasets grandes ===
-Data/cleaned_dataset_csv/
-Data/cleaned_dataset_parquet/
-Data/processed/
-Data/*.csv
-Data/*.parquet
-
-# === Archivos comprimidos o binarios ===
-*.zip
-*.tar.gz
-*.rar
-*.7z
-*.gz
-*.bz2
-
-# === Archivos de ejecución y cacheado ===
-nohup.out
-*.out
-*.err
-
-# === Archivos de Python — dependencias ===
-Pipfile
-Pipfile.lock
-poetry.lock
-__pycache__/
-.pytest_cache/
-.cache/
-
-# === Archivos de exportación de gráficos o tablas ===
-Figures/*.png
-Figures/*.jpg
-Figures/*.jpeg
-Figures/*.pdf
-
-# === Archivos de notebook temporales ===
-Notebooks/.ipynb_checkpoints/
-Notebooks/*checkpoint*.ipynb
-
-# === Archivos de usuario ===
-*.personal
-*.backup
-*.local
-*.cfg
-*.ini
 
 # === Archivos de entorno ===
 .env
-.env.*
 *.env
-
-# === Archivos de ejecución ===
-*.pid
-*.seed
-*.run
-
-# === Sistema de control de versiones adicional ===
-*.orig
-*.rej
-*.patch
-*.diff
