@@ -34,20 +34,22 @@ spark-warehouse/
 metastore_db/
 
 # === Datos pesados ===
-# Ignorar datasets crudos y procesados
+# Ignorar datasets crudos y procesados pesados
 data/raw/
+data/processed/
 data/cleaned_dataset_csv/
 data/cleaned_dataset_parquet/
-data/processed/
 
-# Pero mantener resultados ligeros y seleccionados
+# Mantener datasets limpios para reproducibilidad
+!data/cleaned_dataset_csv/
+!data/cleaned_dataset_parquet/
+
+# Mantener resultados ligeros y métricas
 !data/results/
 !data/results/*.json
 !data/results/*.txt
 
 # === Archivos de salida ===
-*.csv
-*.parquet
 *.zip
 *.gz
 
